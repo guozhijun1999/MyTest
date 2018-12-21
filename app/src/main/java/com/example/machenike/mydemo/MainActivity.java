@@ -13,7 +13,7 @@ import java.util.logging.Logger;
 
 public class MainActivity extends BaseActivity<ZhihuView,ZhihuPresenter<ZhihuView>> implements ZhihuView {
 
-
+//人之初性本善人之初性本善人之初性本善人之初性本善人之初性本善人之初性本善人之初性本善人之初性本善人之初性本善人之初性本善
     @Override
     public void initData() {
         presenter.getDailyListBean();
@@ -43,6 +43,7 @@ public class MainActivity extends BaseActivity<ZhihuView,ZhihuPresenter<ZhihuVie
     public void show(DailyListBean dailyListBean) {
         Logger.getLogger(dailyListBean.toString());
         Log.e("123123",dailyListBean.toString()+"aaaaaaaa");
+        //我再此行加了注释
     }
 
     @Override
